@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import styles from './searchForm.module.scss';
+// import styles from './searchForm.module.scss';
 
 const SearchForm = ({ onSubmit }) => {
   // console.log(onSubmit)
