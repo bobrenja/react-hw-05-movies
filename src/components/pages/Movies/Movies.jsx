@@ -30,8 +30,6 @@ const Movies = () => {
     // console.log('query', q);
   };
 
-
-
   const element = items.map(({ id, title }, index) => (
     <li key={index}>
       {/* <Link to="/movies/{id}"> */}

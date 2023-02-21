@@ -28,10 +28,10 @@ const Reviews = () => {
       return (
         <li>
           <p>
-            Написано{' '}
+            Написано
             <a href={url} target="_blank" rel="noreferrer">
               {author}
-            </a>{' '}
+            </a>
             {new Date(created_at).toLocaleString()}
           </p>
           <span>{content}</span>
